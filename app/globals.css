@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.screen-circle {
+  width: 120vmax;
+  height: 120vmax;
+  border-radius: 50%;
+  @apply bg-gradient-radial from-black to-gray-500;
+}

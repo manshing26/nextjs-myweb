@@ -1,0 +1,22 @@
+{
+    "about_me": "...",
+    "expertise":[
+        "Python","React","Tensorflow","AWS"
+    ],
+    "experience": [
+        {
+            "title": "Freelancer",
+            "years": "2023-2024"
+        },
+        {
+            "title": "Analyst Programmer",
+            "work_at": "Integrated Global Solution Limited",
+            "years": "2022-2023"
+        },
+        {
+            "title": "Software Engineer",
+            "work_at": "Universe Action Limited",
+            "years": "2021-2022"
+        }
+    ]
+}
