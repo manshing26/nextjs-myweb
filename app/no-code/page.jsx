@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import Magnetic from "@/app/UI/Magnetic"
-import { contentNoCode } from "@/content"
+import { contentNoCode, contentAbout, contentHome } from "@/content"
 import EMailForm from "@/app/UI/EmailFormNC"
 import { ArrowDownCircleIcon, ArrowRightIcon } from "@heroicons/react/24/outline"
 import TextCarousel from "@/app/UI/TextCarousel"
@@ -39,21 +39,21 @@ export default function NoCode(){
                     <Image src="/images/me.png" alt="Leon Man photo" width={500} height={500} className="rounded-full shadow-lg shadow-white border-yellow-700 hover:border"/>
                 </div>
                 <div className="md:ml-20">
-                    <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-10 bg-gradient-to-r from-yellow-600 via-sky-500 to bg-orange-500 text-transparent bg-clip-text">{`Hi! I'm Leon Man`}</p>
+                    <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-10 bg-gradient-to-r from-yellow-600 via-sky-500 to bg-orange-500 text-transparent bg-clip-text">{contentHome.heroIntro}</p>
                     {/* <p className="text-base md:text-lg lg:text-xl xl:text-2xl mb-10 bg-gradient-to-r from-yellow-600 via-sky-500 to bg-orange-500 text-transparent bg-clip-text">
                         {`Web Developer / Machiner Learning Engineer / Freelancer`}
                     </p> */}
                     <div className="grid grid-cols-5">
 
-                        <Magnetic><Image src="/images/python.png" alt="python icon" width={438} height={480} className={imageClassIcon}></Image></Magnetic>
+                        <Magnetic><Image src="/images/python.png" alt="Python icon" width={438} height={480} className={imageClassIcon}></Image></Magnetic>
                         
-                        <Magnetic><Image src="/images/js.png" alt="js icon" width={512} height={512} className={imageClassIcon}></Image></Magnetic>
+                        <Magnetic><Image src="/images/js.png" alt="JS icon" width={512} height={512} className={imageClassIcon}></Image></Magnetic>
                         
-                        <Magnetic><Image src="/images/react.png" alt="react icon" width={640} height={557} className={imageClassIcon}></Image></Magnetic>
+                        <Magnetic><Image src="/images/react.png" alt="React icon" width={640} height={557} className={imageClassIcon}></Image></Magnetic>
                         
-                        <Magnetic><Image src="/images/tf.png" alt="tf icon" width={478} height={512} className={imageClassIcon}></Image></Magnetic>
+                        <Magnetic><Image src="/images/tf.png" alt="TF icon" width={478} height={512} className={imageClassIcon}></Image></Magnetic>
                         
-                        <Magnetic><Image src="/images/aws.webp" alt="aws icon" width={478} height={512} className={imageClassIcon}></Image></Magnetic>
+                        <Magnetic><Image src="/images/aws.webp" alt="AWS icon" width={478} height={512} className={imageClassIcon}></Image></Magnetic>
                         
                     </div>
                 </div>
@@ -61,6 +61,13 @@ export default function NoCode(){
             </section>
 
             <section id="ncContent" className="flex flex-col min-h-screen h-auto w-full justify-start items-start p-10 lg:p-20 2xl:p-40">
+
+                <div className="w-full text-center self-center flex flex-col items-center my-20 md:my-28 lg:my-36 xl:my-40 2xl:my-48">
+                    <p className="text-sm lg:text-base 2xl:text-lg border border-slate-800 inline-block px-3 py-2 rounded-3xl mb-5 sm:mb-7">About Me</p>
+                    <p className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold mb-5 sm:mb-10">A Passionate Developer</p>
+                    <p className="w-5/6 lg:w-4/6 2xl:w-1/2 text-base lg:text-xl">{contentAbout.aboutMe}</p>
+                </div>
+                
                 <p className="text-2xl sm:text-3xl md:text-4xl font-bold mb-10">What can I do for You?</p>
                 <div className="grid md:grid-cols-2 2xl:grid-cols-4 gap-10">
                     <GridBox detail={contentNoCode.webDev}/>

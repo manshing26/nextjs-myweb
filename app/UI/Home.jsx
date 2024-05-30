@@ -52,7 +52,7 @@ export function HeroIntro(){
                 <TypeConst />
                 <KeyConst keyName={"Intro"} />
                 <EqualSign />
-                {contentHome.heroIntro}
+                {`"${contentHome.heroIntro}"`}
                 <SemiColon />
             </p>
             <p className={lineClass}>

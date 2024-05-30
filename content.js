@@ -1,9 +1,9 @@
 export const contentHome = {
-    heroIntro: `"Hi! I'm Leon Man."`,
+    heroIntro: `Hi! I'm Leon Man.`,
 }
 
 export const contentAbout = {
-    aboutMe: `"I bring a passion for innovation and a drive for excellence to every project. My expertise spans Python, JavaScript, React, and the AWS platform, where I have crafted robust solutions. With a solid grasp of full-stack development, machine learning, and cloud computing, I am committed to staying at the forefront of technology."`
+    aboutMe: `I bring a passion for innovation and a drive for excellence to every project. My expertise spans Python, JavaScript, React, and the AWS platform, where I have crafted robust solutions. With a solid grasp of full-stack development, machine learning, and cloud computing, I am committed to staying at the forefront of technology.`
 }
 
 export const contentNoCode = {

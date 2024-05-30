@@ -34,7 +34,7 @@ export default function About() {
                 </span>
             </div>
             <div className={lineClass + " w-2/3 2xl:w-4/5 text-wrap ml-10 leading-tight sm:ml-24 md:ml-32 lg:ml-44 xl:ml-56 2xl:ml-64" + (detailOpen?" inline-block":" hidden")}>
-                <span>{contentAbout.aboutMe}</span><Comma/>
+                <span>{`"${contentAbout.aboutMe}"`}</span><Comma/>
             </div>
             <div className={lineClass}>
             <Space/><LineNum num={3}/>
