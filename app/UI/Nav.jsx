@@ -29,7 +29,7 @@ export default function NavBar(){
 
     return (
         <>
-            <div className="z-50 fixed bg-black w-full h-11 sm:h-12 md:h-14 flex justify-start text-sm sm:text-base md:text-lg lg:text-xl overflow-x-scroll">
+            <div className="z-50 fixed bg-black w-full h-11 sm:h-12 md:h-14 flex justify-start text-sm sm:text-base md:text-lg lg:text-xl overflow-x-hidden">
 
                 <div className={"text-white" + divGeneral + " border border-gray-500 flex sm:hidden"} onClick={menuToggle}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mx-1">
