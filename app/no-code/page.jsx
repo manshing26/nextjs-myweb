@@ -5,6 +5,7 @@ import { contentNoCode, contentAbout, contentHome } from "@/content"
 import EMailForm from "@/app/UI/EmailFormNC"
 import { ArrowDownCircleIcon, ArrowRightIcon } from "@heroicons/react/24/outline"
 import TextCarousel from "@/app/UI/TextCarousel"
+import Link from "next/link"
 
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
@@ -32,7 +33,7 @@ export default function NoCode(){
     
     return (
         <main className="bg-white overflow-x-hidden w-screen text-slate-800">
-            <div className="hidden lg:block z-40 fixed left-10 top-20 text-3xl xl:text-4xl text-white font-bold mix-blend-difference">Leon Man Portfolio</div>
+            <Link href={"#ncHero"}><div className="hidden lg:block z-40 fixed left-10 top-20 text-3xl xl:text-4xl text-white font-bold mix-blend-difference">Leon Man Portfolio</div></Link>
 
             <section id="ncHero" className="flex flex-col lg:flex-row min-h-screen h-auto w-full justify-center items-center bg-gradient-to-br from-green-300 to-amber-200 p-10 lg:p-20 relative">
                 <div className="max-w-44 sm:max-w-48 md:max-w-56 lg:max-w-60 xl:max-w-72 mb-10">
