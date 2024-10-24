@@ -52,12 +52,6 @@ export default function NavBar(){
                     <p>Contact.py <span className={markerClass}>U</span></p>
                 </Link>
 
-                <Link href={sitemap.nocode} className={"text-white" + divGeneral + (sitemap.nocode === usePathname() ? divCurrent : divNotCurrent)}>
-                    {/* <InformationCircleIcon className={imageClass + " stroke-blue-400"} /> */}
-                    <Image src="/images/html.png" alt="html icon" width={512} height={512} className={imageClass}></Image>
-                    <p>NoCodeVersion.html</p>
-                </Link>
-
                 <div className="border border-gray-700 flex-grow"/>
             </div>
             <div id="dropDownMenu" className="z-50 fixed top-11 left-0 w-full p-2 rounded-b-xl bg-gray-700 invisible">
@@ -76,10 +70,6 @@ export default function NavBar(){
                         <p>Contact.py <span className={markerClass}>U</span></p>
                     </Link>
 
-                    <Link href={sitemap.nocode} className={"text-white" + menuGeneral + (sitemap.nocode === usePathname() ? menuCurrent : menuNotCurrent)} onClick={menuToggle}>
-                        <InformationCircleIcon className={imageClass + " stroke-blue-400"} />
-                        <p>NoCodeVersion.md</p>
-                    </Link>
             </div>
         </>
     )
