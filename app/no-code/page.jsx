@@ -33,17 +33,17 @@ export default function NoCode(){
     
     return (
         <main className="bg-white overflow-x-hidden w-screen text-slate-800">
-            <Link href={"#ncHero"}><div className="hidden lg:block z-40 fixed left-10 top-20 text-3xl xl:text-4xl text-white font-bold mix-blend-difference">Leon Man Portfolio</div></Link>
+            <Link href={"#ncHero"}><div className="hidden lg:block z-40 fixed left-10 top-20 text-3xl xl:text-4xl text-white font-bold mix-blend-difference">MSH</div></Link>
 
-            <section id="ncHero" className="flex flex-col lg:flex-row min-h-screen h-auto w-full justify-center items-center bg-gradient-to-br from-green-300 to-amber-200 p-10 lg:p-20 relative">
-                <div className="max-w-44 sm:max-w-48 md:max-w-56 lg:max-w-60 xl:max-w-72 mb-10">
+            <section id="ncHero" className="flex flex-col lg:flex-row min-h-screen h-auto w-full justify-center items-center bg-gray-700 p-10 lg:p-20 relative">
+                {/* <div className="max-w-44 sm:max-w-48 md:max-w-56 lg:max-w-60 xl:max-w-72 mb-10">
                     <Image src="/images/me.png" alt="Leon Man photo" width={500} height={500} className="rounded-full shadow-lg shadow-white border-yellow-700 hover:border"/>
-                </div>
+                </div> */}
                 <div className="md:ml-20">
-                    <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-10 bg-gradient-to-r from-yellow-600 via-sky-500 to bg-orange-500 text-transparent bg-clip-text">{contentHome.heroIntro}</p>
-                    {/* <p className="text-base md:text-lg lg:text-xl xl:text-2xl mb-10 bg-gradient-to-r from-yellow-600 via-sky-500 to bg-orange-500 text-transparent bg-clip-text">
-                        {`Web Developer / Machiner Learning Engineer / Freelancer`}
-                    </p> */}
+                    <p className="text-3xl sm:text-4xl md:text-7xl lg:text-8xl xl:text-9xl font-bold mb-10 bg-gradient-to-r from-yellow-600 via-sky-500 to bg-orange-500 text-transparent bg-clip-text">{contentHome.heroIntro}</p>
+                    <p className="text-base md:text-lg lg:text-xl xl:text-2xl mb-10 bg-gradient-to-r from-yellow-600 via-sky-500 to bg-orange-500 text-transparent bg-clip-text">
+                        {`Web Developement / Software Engineering / Machine Learning`}
+                    </p>
                     <div className="grid grid-cols-5">
 
                         <Magnetic><Image src="/images/python.png" alt="Python icon" width={438} height={480} className={imageClassIcon}></Image></Magnetic>
@@ -58,7 +58,7 @@ export default function NoCode(){
                         
                     </div>
                 </div>
-                <TextCarousel className="absolute left-0 bottom-20 text-slate-600 text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold" text="Web Developer / Machiner Learning Engineer / Freelancer /"/>
+                <TextCarousel className="absolute left-0 bottom-20 text-slate-600 text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold" text="Passionate | Self Motivated | Teamwork |"/>
             </section>
 
             <section id="ncContent" className="flex flex-col min-h-screen h-auto w-full justify-start items-start p-10 lg:p-20 2xl:p-40">

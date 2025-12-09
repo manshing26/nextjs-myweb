@@ -39,7 +39,7 @@ export default function NavBar(){
 
                 <Link href={sitemap.home} className={"text-amber-100" + divGeneral + (sitemap.home === usePathname() ? divCurrent : divNotCurrent)}>
                     <Image src="/images/js.png" alt="js icon" width={512} height={512} className={imageClass}></Image>
-                    <p>Home.js <span className={markerClass}>M</span></p>
+                    <p>Intro.js <span className={markerClass}>M</span></p>
                 </Link>
 
                 <Link href={sitemap.about} className={"text-white" + divGeneral + (sitemap.about === usePathname() ? divCurrent : divNotCurrent)}>
@@ -50,6 +50,11 @@ export default function NavBar(){
                 <Link href={sitemap.contact} className={"text-emerald-500" + divGeneral + (sitemap.contact === usePathname() ? divCurrent : divNotCurrent)}>
                     <Image src="/images/python.png" alt="python icon" width={438} height={480} className={imageClass}></Image>
                     <p>Contact.py <span className={markerClass}>U</span></p>
+                </Link>
+
+                <Link href={sitemap.nocode} className={"text-white" + divGeneral + (sitemap.nocode === usePathname() ? divCurrent : divNotCurrent)}>
+                    <Image src="/images/python.png" alt="python icon" width={438} height={480} className={imageClass}></Image>
+                    <p>index.html</p>
                 </Link>
 
                 <div className="border border-gray-700 flex-grow"/>

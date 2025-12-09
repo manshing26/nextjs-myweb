@@ -83,7 +83,7 @@ export function HeroIntro(){
             </div>
             <div className={lineClass}>
                 <LineNum num={7}/>
-                <Comment text={`// (PC)hover to show preview ↑`}/>
+                <Comment text={`// Hover to show my face ↑`}/>
             </div>
             <p className={lineClass}>
                 <LineNum num={8}/>
